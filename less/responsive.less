@@ -1,0 +1,87 @@
+/* RESPONSIVE */
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre fait au moins 1024px */
+@media all and (min-width: 1024px) {
+    .maindiv { width:; }  
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre fait entre 600px et 1024px */
+@media all and (min-width: 600px) and (max-width: 1024px) {
+    .maindiv { width:; }
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre fait moins de 600px */
+@media (max-width: 600px) {
+    /* MARGIN */
+    
+    .containermargintop, .containermarginbottom {
+        height: 20px;
+    }
+    
+    .containermarginright, .containermarginleft {
+        width: 20px;
+    }
+    
+    .containermarginbottom .copyright {
+        font-size: 8px; margin-top: 3px;
+    }
+    
+    /* MENU */
+
+    .container .menu {
+        width: 100%; margin: 20px 0 0 0; padding: 10px 0;
+        position: fixed; top: 0;
+        text-align: center; line-height: 2;
+    }
+
+    .container .menu li {
+        float: none;
+    }
+
+    .container .menu li:nth-child(-n+2) {
+        margin-right: 10px;
+    }
+    
+    /* CONTAINER */
+
+    .container {
+        margin: 160px 0 60px 0; padding: 0 20px;
+    }
+
+    .container img {
+        width: 95px; height: 95px;
+    }
+    
+    .container h1 {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .container p {
+        width: 260px; margin-top: 20px;
+        font-size: 18px; line-height: 1.6;
+    }
+    
+    .container h2 {
+        width: 260px;
+        margin: 60px auto 0 auto;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .container h2 a {
+        padding: 10px;
+    }
+    
+    .container .social {
+        width: 220px; margin: 60px auto 0 auto;
+    }
+    
+    .container .social li:nth-child(-n+3) {
+        margin-right: 20px;
+    }
+
+    .container .social li img {
+        width: 40px; height: 40px;
+    }
+}
