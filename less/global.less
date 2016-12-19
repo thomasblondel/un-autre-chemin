@@ -1,177 +1,183 @@
 /* HTML BODY */
 
 html, body {
-    height: 100%;
-    background-color: @c_white;
+  height: 100%;
+  background-color: @c_white;
 
-    .f_rbt();
-    font-size: 18px;
-    line-height: 24px;
+  .f_rbt();
+  font-size: 18px;
+  line-height: 24px;
 
-    cursor: default;
+  cursor: default;
 }
 
 /* CONTAINER */
 
 .container-fluid {
-    height: auto;
+  height: auto;
 }
 
-/* CONTAINER-HEADER */
+/* CONTAINER HEADER */
 
 .container-header {
-    margin: 30px 0 40px;
+  margin: 30px 0 40px;
 
-    img {
-        width: 145px;
-    }
+  img {
+    width: 145px;
+  }
 
-    /* MENU */
+  /* MENU */
 
-    nav {
+  nav {
 
-        ul {
-            float: right;
+    ul {
+      float: right;
 
-            margin: 6px 0 0;
+      margin: 6px 0 0;
 
-            font-size: 16px;
-            line-height: 22px;
+      font-size: 16px;
+      line-height: 22px;
 
-            li {
-                margin-left: 40px;
+      li {
+        margin-left: 40px;
 
-                &:last-of-type {
+        &:last-of-type {
 
-                    a {
-                        padding: 10px 20px;
-                        border-radius: 20px;
-                        background-color: @c_green;
+          a {
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: @c_green;
 
-                        color: @c_white;
+            color: @c_white;
 
-                        &:hover {
-                            background-color: @c_green;
-                        }
-                    }
-                }
-
-                a {
-                    padding: 10px 0;
-
-                    &:hover {
-                        background-color: inherit;
-                    }
-                }
+            &:hover {
+              background-color: @c_green;
             }
+          }
         }
+
+        a {
+          padding: 10px 0;
+
+          &:hover {
+            background-color: inherit;
+          }
+        }
+      }
     }
+  }
+}
+
+/* */
+
+.modal-dialog {
+  margin: 200px auto;
 }
 
 /* PAGE HEADER */
 
 .container-first-photo{
 
-    img {
-        width: 100%;
-        background-color: black;
-    }
+  img {
+    width: 100%;
+    background-color: black;
+  }
 }
 
-/* CONTAINER-SHOP */
+/* CONTAINER SHOP */
 
 .container-shop-list {
 
-    .shop-title {
-        margin: 40px 0 0;
-        text-align: center;
+  .shop-title {
+    margin: 40px 0 0;
+    text-align: center;
 
-        h1 {
+    h1 {
+      .f_lora();
+      font-weight: 700;
+      font-size: 34px;
+    }
+
+    p {
+      margin: 20px 0 0;
+      font-size: 18px;
+      line-height: 24px;
+      color: @c_grey;
+    }
+  }
+
+  ul {
+    margin: 60px 0 60px;
+
+    li {
+      margin: 0 0 20px;
+
+      text-align: center;
+
+      list-style: none;
+
+      .shop-info {
+        padding: 30px;
+        background-color: @c_sand;
+
+        h2 {
+          margin: 0;
+
+          .f_lora();
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+        }
+
+        hr {
+          width: 100px;
+          margin: 20px auto;
+          border-top: 1px solid #DDDDDD;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 20px;
+          color: @c_grey;
+
+          span {
+            display: block;
+
+            margin: 10px 0 20px;
+
             .f_lora();
             font-weight: 700;
-            font-size: 34px;
+            font-size: 22px;
+            color: @c_black;
+          }
         }
 
-        p {
-            margin: 20px 0 0;
-            font-size: 18px;
-            line-height: 24px;
-            color: @c_grey;
+        a {
+
+          &:hover {
+
+          }
         }
-    }
 
-    ul {
-        margin: 60px 0 60px;
+        .btn-primary {
+          padding: 8px 20px;
+          border: none;
+          border-radius: 20px;
+          background-color: @c_wood;
+        }
 
-        li {
-            margin: 0 0 20px;
+        .modal {
 
-            text-align: center;
+          .modal-body {
 
-            list-style: none;
-
-            .shop-info {
-                padding: 30px;
-                background-color: @c_sand;
-
-                h2 {
-                    margin: 0;
-
-                    .f_lora();
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 30px;
-                }
-
-                hr {
-                    width: 100px;
-                    margin: 20px auto;
-                    border-top: 1px solid #DDDDDD;
-                }
-
-                p {
-                    font-size: 16px;
-                    line-height: 20px;
-                    color: @c_grey;
-
-                    span {
-                        display: block;
-
-                        margin: 10px 0 20px;
-
-                        .f_lora();
-                        font-weight: 700;
-                        font-size: 22px;
-                        color: @c_black;
-                    }
-                }
-
-                a {
-
-                    &:hover {
-
-                    }
-                }
-
-                .btn-primary {
-                    padding: 8px 20px;
-                    border: none;
-                    border-radius: 20px;
-                    background-color: @c_wood;
-                }
-
-                .modal {
-
-                    .modal-body {
-
-                        p {
-                            line-height: 26px;
-                        }
-                    }
-                }
+            p {
+              line-height: 26px;
             }
+          }
         }
+      }
     }
+  }
 }
 
 /* IMPORTS */

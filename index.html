@@ -18,7 +18,30 @@
     </head>
 
     <body id="homepage">
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="myModal0">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Ouverture Un Autre Chemin Grande Synthe</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                    <b>Le Jeudi 12 Janvier 2017</b>
+                </p>
+                <br />
+                <p>
+                    Lundi : 14h - 19h30<br />
+                    Mardi au samedi : 9h30 - 19h30 non stop
+                </p>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
         <div class="container">
+
             <div class="row container-header">
                 <div class="col-md-10 col-md-offset-1">
                     <img src="../img/logotype-unautrechemin.png" alt="Un Autre Chemin" class="col-md-2" />
@@ -173,8 +196,25 @@
                                 <hr />
                                 <p>
                                     18 rue d'aquitaine <br /> 59760 Grande Synthe
-                                    <span>Ouverture Prochainement</span>
+                                    <span>09 67 35 27 29</span>
                                 </p>
+                                <!-- Modal -->
+                                <button type="button" class="btn btn5 btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Les horaires du magasin</button>
+
+                                <div class="modal fade" tabindex="-1" role="dialog" id="myModal5">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title">Les horaires de Grande Synthe</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <p>Lundi : 14h - 19h30<br />
+                                        Mardi au samedi : 9h30 - 19h30 non stop</p>
+                                      </div>
+                                    </div><!-- /.modal-content -->
+                                  </div><!-- /.modal-dialog -->
+                                </div><!-- /.modal -->
                             </div>
                         </li>
                     </ul>
@@ -183,17 +223,11 @@
         </div>
       </div>
 
+      <!-- Google Fonts -->
+
       <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:400,700" rel="stylesheet">
 
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-47075194-1', 'auto');
-        ga('send', 'pageview');
-      </script>
+      <!-- Google Analytics -->
 
       <script type="text/javascript" src="js/jquery.js"></script>
       <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>

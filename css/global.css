@@ -12,7 +12,7 @@ body {
 .container-fluid {
   height: auto;
 }
-/* CONTAINER-HEADER */
+/* CONTAINER HEADER */
 .container-header {
   margin: 30px 0 40px;
   /* MENU */
@@ -44,12 +44,16 @@ body {
 .container-header nav ul li a:hover {
   background-color: inherit;
 }
+/* */
+.modal-dialog {
+  margin: 200px auto;
+}
 /* PAGE HEADER */
 .container-first-photo img {
   width: 100%;
   background-color: black;
 }
-/* CONTAINER-SHOP */
+/* CONTAINER SHOP */
 .container-shop-list .shop-title {
   margin: 40px 0 0;
   text-align: center;
