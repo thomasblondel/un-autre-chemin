@@ -18,7 +18,7 @@ body {
   /* MENU */
 }
 .container-header img {
-  width: 145px;
+  max-width: 360px;
 }
 .container-header nav ul {
   float: right;
@@ -49,8 +49,12 @@ body {
   margin: 200px auto;
 }
 /* PAGE HEADER */
+.container-first-photo {
+  text-align: center;
+}
 .container-first-photo img {
-  width: 100%;
+  width: auto;
+  height: auto;
   background-color: black;
 }
 /* CONTAINER SHOP */
