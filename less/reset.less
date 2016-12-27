@@ -33,3 +33,22 @@ a {
 img {
     pointer-events: none;
 }
+
+.container {
+  @media (max-width: 600px) {
+    margin: 0 !important;
+
+    h2, p {
+      width: inherit !important;
+    }
+
+    ul {
+      padding: 0 !important;
+    }
+
+    img {
+      width: inherit !important;
+      height: inherit !important;
+    }
+  }
+}

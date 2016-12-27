@@ -138,6 +138,22 @@ a:focus {
 img {
   pointer-events: none;
 }
+@media (max-width: 600px) {
+  .container {
+    margin: 0 !important;
+  }
+  .container h2,
+  .container p {
+    width: inherit !important;
+  }
+  .container ul {
+    padding: 0 !important;
+  }
+  .container img {
+    width: inherit !important;
+    height: inherit !important;
+  }
+}
 /* SELECTION */
 ::-moz-selection {
   color: white;
