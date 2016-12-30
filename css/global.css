@@ -20,6 +20,9 @@ body {
 .container-header img {
   max-width: 360px;
 }
+.container-header nav {
+  margin: 10px 0 0;
+}
 .container-header nav ul {
   float: right;
   margin: 6px 0 0;
